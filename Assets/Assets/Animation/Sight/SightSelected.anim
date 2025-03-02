@@ -34,8 +34,28 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BarrelButton/Icon_Text_Holder/Text
-      (TMP)
+    path: Attachments/BarrelButton/Default
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Attachments/BarrelButton/Icon_Text_Holder/Text (TMP)
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -56,7 +76,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BarrelButton/Selected
+    path: Attachments/BarrelButton/Selected
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -77,7 +97,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BottomPart
+    path: Attachments/BottomPart
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -98,7 +118,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BottomPart/BarrelBottomHolder
+    path: Attachments/BottomPart/BarrelBottomHolder
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -119,7 +139,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BottomPart/MagBottomHolder
+    path: Attachments/BottomPart/MagBottomHolder
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -140,7 +160,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BottomPart/SightBottomHolder
+    path: Attachments/BottomPart/SightBottomHolder
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -161,7 +181,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BottomPart/StockBottomHolder
+    path: Attachments/BottomPart/StockBottomHolder
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -182,7 +202,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BottomPart/TacticalBottomHolder
+    path: Attachments/BottomPart/TacticalBottomHolder
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -203,7 +223,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/Header
+    path: Attachments/Header
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -224,8 +244,28 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/MagButton/Icon_Text_Holder/Text
-      (TMP)
+    path: Attachments/MagButton/Default
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Attachments/MagButton/Icon_Text_Holder/Text (TMP)
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -246,7 +286,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/MagButton/Selected
+    path: Attachments/MagButton/Selected
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -267,7 +307,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/SightButton/Default
+    path: Attachments/SightButton/Default
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -288,8 +328,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/SightButton/Icon_Text_Holder/Text
-      (TMP)
+    path: Attachments/SightButton/Icon_Text_Holder/Text (TMP)
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -310,7 +349,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/SightButton/Selected
+    path: Attachments/SightButton/Selected
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -331,8 +370,28 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/StockButton/Icon_Text_Holder/Text
-      (TMP)
+    path: Attachments/StockButton/Default
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Attachments/StockButton/Icon_Text_Holder/Text (TMP)
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -353,7 +412,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/StockButton/Selected
+    path: Attachments/StockButton/Selected
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -374,8 +433,28 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/TacticalButton/Icon_Text_Holder/Text
-      (TMP)
+    path: Attachments/TacticalButton/Default
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Attachments/TacticalButton/Icon_Text_Holder/Text (TMP)
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -396,91 +475,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/TacticalButton/Selected
-    classID: 1
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/MagButton/Default
-    classID: 1
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/TacticalButton/Default
-    classID: 1
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BarrelButton/Default
-    classID: 1
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/StockButton/Default
+    path: Attachments/TacticalButton/Selected
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -493,7 +488,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1447753052
+      path: 2105845833
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -502,7 +497,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 891684302
+      path: 2641858386
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -511,7 +506,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3968706147
+      path: 2170245983
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -520,7 +515,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 267410413
+      path: 2841248523
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -529,7 +524,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 463976739
+      path: 4263805892
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -538,7 +533,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3241901372
+      path: 3307697986
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -547,7 +542,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1032881534
+      path: 3238074093
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -556,7 +551,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1324883960
+      path: 1034612399
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -565,7 +560,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2020342428
+      path: 2192976673
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -574,7 +569,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2640484233
+      path: 1200554224
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -583,7 +578,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3252694332
+      path: 2137400378
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -592,7 +587,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2711606351
+      path: 529302530
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -601,7 +596,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 933548944
+      path: 1213567317
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -610,7 +605,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1759833366
+      path: 2507716623
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -619,7 +614,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2908698009
+      path: 1802326304
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -628,7 +623,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2258347409
+      path: 504122346
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -637,7 +632,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2845017637
+      path: 3830518541
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -646,7 +641,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3587548736
+      path: 4053186345
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -655,7 +650,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 435269027
+      path: 4034069357
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -664,7 +659,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 757505727
+      path: 2862235707
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -673,7 +668,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 191631029
+      path: 2277570740
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -682,7 +677,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3501621069
+      path: 1065835943
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -729,8 +724,28 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BarrelButton/Icon_Text_Holder/Text
-      (TMP)
+    path: Attachments/BarrelButton/Default
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Attachments/BarrelButton/Icon_Text_Holder/Text (TMP)
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -751,7 +766,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BarrelButton/Selected
+    path: Attachments/BarrelButton/Selected
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -772,7 +787,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BottomPart
+    path: Attachments/BottomPart
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -793,7 +808,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BottomPart/BarrelBottomHolder
+    path: Attachments/BottomPart/BarrelBottomHolder
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -814,7 +829,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BottomPart/MagBottomHolder
+    path: Attachments/BottomPart/MagBottomHolder
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -835,7 +850,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BottomPart/SightBottomHolder
+    path: Attachments/BottomPart/SightBottomHolder
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -856,7 +871,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BottomPart/StockBottomHolder
+    path: Attachments/BottomPart/StockBottomHolder
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -877,7 +892,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BottomPart/TacticalBottomHolder
+    path: Attachments/BottomPart/TacticalBottomHolder
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -898,7 +913,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/Header
+    path: Attachments/Header
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -919,8 +934,28 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/MagButton/Icon_Text_Holder/Text
-      (TMP)
+    path: Attachments/MagButton/Default
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Attachments/MagButton/Icon_Text_Holder/Text (TMP)
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -941,7 +976,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/MagButton/Selected
+    path: Attachments/MagButton/Selected
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -962,7 +997,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/SightButton/Default
+    path: Attachments/SightButton/Default
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -983,8 +1018,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/SightButton/Icon_Text_Holder/Text
-      (TMP)
+    path: Attachments/SightButton/Icon_Text_Holder/Text (TMP)
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -1005,7 +1039,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/SightButton/Selected
+    path: Attachments/SightButton/Selected
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -1026,8 +1060,28 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/StockButton/Icon_Text_Holder/Text
-      (TMP)
+    path: Attachments/StockButton/Default
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Attachments/StockButton/Icon_Text_Holder/Text (TMP)
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -1048,7 +1102,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/StockButton/Selected
+    path: Attachments/StockButton/Selected
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -1069,8 +1123,28 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/TacticalButton/Icon_Text_Holder/Text
-      (TMP)
+    path: Attachments/TacticalButton/Default
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Attachments/TacticalButton/Icon_Text_Holder/Text (TMP)
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -1091,91 +1165,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/TacticalButton/Selected
-    classID: 1
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/MagButton/Default
-    classID: 1
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/TacticalButton/Default
-    classID: 1
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/BarrelButton/Default
-    classID: 1
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: UI_Canvas/AttachmentsHolder/Attachments/StockButton/Default
+    path: Attachments/TacticalButton/Selected
     classID: 1
     script: {fileID: 0}
     flags: 0
