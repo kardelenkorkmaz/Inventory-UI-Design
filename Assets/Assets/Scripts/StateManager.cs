@@ -7,19 +7,19 @@ namespace Assets.Scripts
         [SerializeField] private Animator parentAnimator;
         
         // Sight
-        private string _currentSightSelection;
+        private string _currentSightSelection = "Sight1Selected";
         private string _sightSelection;
         // Mag
-        private string _currentMagSelection;
+        private string _currentMagSelection = "Mag1Selected";
         private string _magSelection;
         // Barrel
-        private string _currentBarrelSelection;
+        private string _currentBarrelSelection = "Barrel1Selected";
         private string _barrelSelection;
         // Stock
-        private string _currentStockSelection;
+        private string _currentStockSelection = "Stock1Selected";
         private string _stockSelection;
         // Tactical
-        private string _currentTacticalSelection;
+        private string _currentTacticalSelection = "Tactical1Selected";
         private string _tacticalSelection;
         
         [SerializeField] private GameObject equipButton;
