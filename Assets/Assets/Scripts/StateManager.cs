@@ -15,42 +15,84 @@ namespace Assets.Scripts
         // Barrel
         private string _currentBarrelSelection;
         private string _barrelSelection;
-        //Stock
+        // Stock
         private string _currentStockSelection;
         private string _stockSelection;
-        //Tactical
+        // Tactical
         private string _currentTacticalSelection;
         private string _tacticalSelection;
         
+        [SerializeField] private GameObject equipButton;
+        [SerializeField] private GameObject equippedButton;
         
         private string _lastSelection;
 
         public void ChangeSightSelection(string sightSelection)
         {
+            if (sightSelection == _currentSightSelection)
+            {
+                EnableEquippedButton();
+            }
+            else
+            {
+                EnableEquipButton();
+            }
             _sightSelection = sightSelection;
             parentAnimator.Play(sightSelection);
         }
         
         public void ChangeMagSelection(string magSelection)
         {
+            if (magSelection == _currentMagSelection)
+            {
+                EnableEquippedButton();
+            }
+            else
+            {
+                EnableEquipButton();
+            }
             _magSelection = magSelection;
             parentAnimator.Play(magSelection);
         }
 
         public void ChangeBarrelSelection(string barrelSelection)
         {
+            if (barrelSelection == _currentBarrelSelection)
+            {
+                EnableEquippedButton();
+            }
+            else
+            {
+                EnableEquipButton();
+            }
             _barrelSelection = barrelSelection;
             parentAnimator.Play(barrelSelection);
         }
 
         public void ChangeStockSelection(string stockSelection)
         {
+            if (stockSelection == _currentStockSelection)
+            {
+                EnableEquippedButton();
+            }
+            else
+            {
+                EnableEquipButton();
+            }
             _stockSelection = stockSelection;
             parentAnimator.Play(stockSelection);
         }
 
         public void ChangeTacticalSelection(string tacticalSelection)
         {
+            if (tacticalSelection == _currentTacticalSelection)
+            {
+                EnableEquippedButton();
+            }
+            else
+            {
+                EnableEquipButton();
+            }
             _tacticalSelection = tacticalSelection;
             parentAnimator.Play(tacticalSelection);
         }
@@ -60,26 +102,31 @@ namespace Assets.Scripts
             if (_lastSelection == "Sight")
             {
                 _currentSightSelection = _sightSelection;
+                EnableEquippedButton();
             }
 
             if (_lastSelection == "Mag")
             {
                 _currentMagSelection = _magSelection;
+                EnableEquippedButton();
             }
 
             if (_lastSelection == "Barrel")
             {
                 _currentBarrelSelection = _barrelSelection;
+                EnableEquippedButton();
             }
 
             if (_lastSelection == "Stock")
             {
                 _currentStockSelection = _stockSelection;
+                EnableEquippedButton();
             }
 
             if (_lastSelection == "Tactical")
             {
                 _currentTacticalSelection = _tacticalSelection;
+                EnableEquippedButton();
             }
         }
 
@@ -109,8 +156,21 @@ namespace Assets.Scripts
             {
                 parentAnimator.Play(_currentTacticalSelection);
             }
-            
+
+            EnableEquippedButton();
             _lastSelection = newSelection;
+        }
+
+        private void EnableEquipButton()
+        {
+            equipButton.SetActive(true);
+            equippedButton.SetActive(false);
+        }
+
+        private void EnableEquippedButton()
+        {
+            equippedButton.SetActive(true);
+            equipButton.SetActive(false);
         }
     }
 
