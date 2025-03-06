@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 2f0761fa7b4d544d9a441e572fd727a2
+guid: 59ee2eef072ad4c9e83cf44f28fbbe46
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: spcl_rif_mcx_topscorer
-    second: {fileID: 2100000, guid: af4796e8065b64f2db95b10e2b60f9f1, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
